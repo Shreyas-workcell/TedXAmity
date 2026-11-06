@@ -1,0 +1,99 @@
+{
+  "project_name": "TEDxAmityUniversityBengaluru Landing Page",
+  "theme_archetype": "JEWEL & LUXURY meets SWISS HIGH-CONTRAST (Cinematic, Intellectual, Dark, Glowing)",
+  "colors": {
+    "background": {
+      "primary": "#000000",
+      "secondary": "#0A0A0A",
+      "tertiary": "#121212"
+    },
+    "brand": {
+      "ted_red": "#E62B1E",
+      "ember_glow": "#FF4D2E"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A1A1AA",
+      "accent": "#E62B1E"
+    },
+    "borders": {
+      "subtle": "rgba(255, 255, 255, 0.1)",
+      "glow": "rgba(230, 43, 30, 0.3)"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "headings": "Playfair Display, serif",
+      "body": "Manrope, sans-serif"
+    },
+    "rules": {
+      "headings": "Large, cinematic, tight tracking (tracking-tighter). Break symmetry.",
+      "body": "Clean, highly legible, leading-relaxed for long-form reading.",
+      "accents": "Uppercase, tracking-[0.2em], text-xs font-bold for section overlines."
+    }
+  },
+  "spacing_and_layout": {
+    "philosophy": "Generous Spacing (p-8 to p-32), allowing content to breathe and emphasizing dramatic scale.",
+    "bento_grid": "Used in About and Previous Events. Asymmetrical spans to create visual tension.",
+    "containers": "max-w-7xl mx-auto px-6 lg:px-12",
+    "surface_strategy": "Crystal Glass for headers (backdrop-blur-xl bg-black/60). Subtle 1px inner borders."
+  },
+  "motion_and_interactions": {
+    "scroll": "Smooth scrolling using Framer Motion whileInView.",
+    "hover_states": "Cards lift (-translate-y-2), drop-shadow glows (drop-shadow-[0_0_15px_rgba(230,43,30,0.4)]), images scale up 105%.",
+    "entrance": "Staggered fade-up animations on scroll using Framer Motion (initial: opacity 0, y: 30).",
+    "particles": "Floating 'ember' particles moving upwards slowly in the Hero section to simulate sparks."
+  },
+  "3d_and_visual_effects": {
+    "particles_library": "react-tsparticles and tsparticles (lightweight glowing red/orange dots).",
+    "gradients": "Radial gradients (bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]) from-ted_red/20 to-transparent used to create soft stage lighting behind key elements."
+  },
+  "components": {
+    "navbar": "Sticky glassmorphism nav. Contains combined TEDx + Amity logo lockup. Transparent to black blur on scroll.",
+    "hero": "h-screen, absolute particle canvas. Massive central dramatic typography: 'One Spark... Endless Possibilities'.",
+    "about": "Asymmetrical layout. Left side: large elegant serif text. Right side: cinematic event photo.",
+    "events": "Grid of cards with glowing red hover effects. Cinematic imagery.",
+    "speakers": "Grid of speaker cards. Default grayscale imagery, transitioning to full color and scaling up on hover. Click triggers Shadcn Modal overlay with deep black background.",
+    "registration": "Massive CTA block. Includes a large countdown timer in Playfair Display. Primary red pill-shaped button.",
+    "team": "Minimalist card grid. Professional photos, clean typography, tiny LinkedIn icons.",
+    "sponsors": "Sleek 'Coming Soon' placeholder with subtle pulsing text effect.",
+    "footer": "Deep padding, massive TEDx logo text at the bottom, social links arrayed cleanly."
+  },
+  "media_and_images": {
+    "hero_bg": "https://images.pexels.com/photos/7991495/pexels-photo-7991495.jpeg",
+    "about_image": "https://images.unsplash.com/photo-1568407645630-fc5e8a90f12e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwzfHxjaW5lbWF0aWMlMjBkYXJrJTIwc3RhZ2UlMjBsaWdodGluZyUyMHJlZHxlbnwwfHx8fDE3NzQ0MjMyODJ8MA&ixlib=rb-4.1.0&q=85",
+    "speaker_1": "https://images.unsplash.com/photo-1704253797699-f983e3cd70ff?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxzcGVha2VyJTIwb24lMjBkYXJrJTIwc3RhZ2V8ZW58MHx8fHwxNzc0NDIzMjgzfDA&ixlib=rb-4.1.0&q=85",
+    "speaker_2": "https://images.unsplash.com/photo-1549046701-6bd11cf71796?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxzcGVha2VyJTIwb24lMjBkYXJrJTIwc3RhZ2V8ZW58MHx8fHwxNzc0NDIzMjgzfDA&ixlib=rb-4.1.0&q=85",
+    "speaker_3": "https://images.pexels.com/photos/29708269/pexels-photo-29708269.jpeg",
+    "team_1": "https://images.pexels.com/photos/5349053/pexels-photo-5349053.jpeg",
+    "team_2": "https://images.unsplash.com/photo-1770894807442-108cc33c0a7a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc3NDQyMzI4NXww&ixlib=rb-4.1.0&q=85",
+    "general_event": "https://images.unsplash.com/photo-1542403412761-3cc3eb570011?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHw0fHxjaW5lbWF0aWMlMjBkYXJrJTIwc3RhZ2UlMjBsaWdodGluZyUyMHJlZHxlbnwwfHx8fDE3NzQ0MjMyODJ8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Execute yarn add framer-motion lucide-react react-tsparticles tsparticles",
+    "Add fonts Playfair Display and Manrope via Google Fonts in index.html.",
+    "Build strictly in React (.js). Export components properly.",
+    "Configure tailwind.config.js with colors: { brand: { red: '#E62B1E', ember: '#ff4d2e' } }.",
+    "Do NOT use pure #000000 for everything; use #0a0a0a for card backgrounds to separate from the #000000 base.",
+    "Implement the sticky navbar with backdrop-blur-xl and bg-black/60. Never use fully transparent backgrounds for scrolling headers.",
+    "Apply data-testid to ALL interactive elements (buttons, links, modals).",
+    "Ensure particle canvas stays behind content (z-0) and doesn't block pointer events for buttons.",
+    "TEDx Logo requirement: Use text with formatting - <span className='text-brand-red font-black'>TEDx</span><span className='text-white font-medium'>AmityUniversityBengaluru</span>."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms.",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style.",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories = main agent will use placeholder text which is FORBIDDEN.",
+    "Components MUST use named exports, Pages MUST use default exports."
+  ]
+}
